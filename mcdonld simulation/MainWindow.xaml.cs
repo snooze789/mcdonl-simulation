@@ -33,13 +33,18 @@ namespace mcdonld_simulation
             cheeseburg.Visibility = Visibility.Visible;
             mic_chicken_balls.Visibility = Visibility.Visible;
             mc_chicken_buttn.Visibility = Visibility.Visible;
+            mealbutton.Visibility = Visibility.Visible;
+            mealimage.Visibility = Visibility.Visible;
         }
         private void cheeseclick(object sender, RoutedEventArgs e)
         {
             cheesemcd.Visibility = Visibility.Visible; 
             cheeseburger.Visibility = Visibility.Hidden;
             cheeseburg.Visibility = Visibility.Hidden;
-
+            mealimage.Visibility = Visibility.Hidden;
+            mealbutton.Visibility = Visibility.Hidden;
+            mc_chicken_buttn.Visibility = Visibility.Hidden;
+            mcchick.Visibility = Visibility.Visible;
         }
         private void mcchicken(object sender, RoutedEventArgs e)
         {
@@ -49,7 +54,19 @@ namespace mcdonld_simulation
             mic_chicken_balls.Visibility = Visibility.Hidden;
             mc_chicken_buttn.Visibility = Visibility.Hidden;
             mcchick.Visibility = Visibility.Visible;
+            mealimage.Visibility= Visibility.Hidden;
+            mealbutton.Visibility= Visibility.Hidden;
 
+        }
+
+        private void meallol(object sender, RoutedEventArgs e)
+        {
+            cheesemcd.Visibility = Visibility.Hidden;
+            cheeseburger.Visibility = Visibility.Hidden;
+            cheeseburg.Visibility = Visibility.Hidden;
+            mic_chicken_balls.Visibility = Visibility.Hidden;
+            mc_chicken_buttn.Visibility = Visibility.Hidden;
+            mealimageout.Visibility = Visibility.Visible;
         }
     }
 }

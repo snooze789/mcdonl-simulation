@@ -24,6 +24,10 @@
         <Image Name="mic_chicken_balls" Visibility="Hidden" Margin="66,326,955,184" Source="/download jepg.jpeg" Stretch="Fill"/>
         <Button Name="mc_chicken_buttn" Click="mcchicken" Visibility="Hidden" Content="Buttonmc chicken" FontSize="50" HorizontalAlignment="Left" Margin="31,543,0,0" VerticalAlignment="Top" Height="71" Width="407"/>
         <Image Name="mcchick" Visibility="Hidden" Margin="0,0,-22,0" Source="/mcchick.jpg" Stretch="Fill"/>
+        <Image Name="mealimage" Margin="1041,112,51,126" Source="/meal.jpeg" Stretch="Fill" Visibility="Hidden"/>
+        <Button Name="mealbutton" Click="meallol" Content="meal lol" HorizontalAlignment="Left" Margin="997,614,0,0" VerticalAlignment="Top" FontSize="72" FontFamily="Bahnschrift SemiBold Condensed" Visibility="Hidden"/>
+        <Image Name="mealimageout" Margin="-154,-90,-154,-91" Source="/meeLA.jpg" Stretch="Fill" Visibility="Hidden"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="1402,92,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
