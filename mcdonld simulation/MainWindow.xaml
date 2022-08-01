@@ -1,0 +1,29 @@
+﻿<Window x:Class="mcdonld_simulation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mcdonld_simulation"
+        mc:Ignorable="d"
+        Title="mcdonals" Height="720" Width="1280">
+    <Grid>
+        <Image Name="outside_mcd" Visibility="Visible" Margin="10,10,-50,9" Source="/20170112-123001-largejpg.jpg" Stretch="Fill"/>
+        <Button Name="go_in_mcd" Click="Button_Click" Content="click rto go in mcdonals" FontSize="30" HorizontalAlignment="Left" Margin="306,146,0,0" VerticalAlignment="Top" Height="58" Width="334"/>
+        <Image Name="cheeseburg" Visibility="Hidden" Margin="338,224,241,149" Source="/download (1).jpeg" Stretch="Fill" RenderTransformOrigin="0.116,0.649">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.679"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Button Name="cheeseburger" Click="cheeseclick" Content="cheeseburger" FontSize="30" Visibility="Hidden" HorizontalAlignment="Left" Margin="418,570,0,0" VerticalAlignment="Top"/>
+        <Image Name="cheesemcd" Visibility="hidden" Source="/cheese.jpg" Stretch="Fill"/>
+        <Image Name="mic_chicken_balls" Visibility="Hidden" Margin="66,326,955,184" Source="/download jepg.jpeg" Stretch="Fill"/>
+        <Button Name="mc_chicken_buttn" Click="mcchicken" Visibility="Hidden" Content="Buttonmc chicken" FontSize="50" HorizontalAlignment="Left" Margin="31,543,0,0" VerticalAlignment="Top" Height="71" Width="407"/>
+        <Image Name="mcchick" Visibility="Hidden" Margin="0,0,-22,0" Source="/mcchick.jpg" Stretch="Fill"/>
+
+    </Grid>
+</Window>
